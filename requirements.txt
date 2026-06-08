@@ -5,5 +5,7 @@ matplotlib
 scikit-learn 
 catboost
 xgboost 
-ipykernel
+ipykernel 
+dill 
+pickle-mixin
 -e .
