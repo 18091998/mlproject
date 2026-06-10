@@ -7,5 +7,6 @@ catboost
 xgboost 
 ipykernel 
 dill 
-pickle-mixin
+pickle-mixin 
+Flask
 -e .
