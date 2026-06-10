@@ -1,12 +1,11 @@
 pandas
 numpy
-seaborn  
+seaborn
 matplotlib
-scikit-learn 
+scikit-learn
 catboost
-xgboost 
-ipykernel 
-dill 
-pickle-mixin 
+xgboost
+ipykernel
+dill
 Flask
--e .
+gunicorn
