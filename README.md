@@ -1,24 +1,24 @@
-#  Student Exam Performance Prediction
+# 🎓 Student Exam Performance Prediction
 
 A production-grade end-to-end Machine Learning web application that predicts a student's **Math Score** based on demographic and academic features.
 
-  **Live Demo:** [https://mlproject-gpyj.onrender.com](https://mlproject-gpyj.onrender.com)
+🌐 **Live Demo:** [https://mlproject-gpyj.onrender.com](https://mlproject-gpyj.onrender.com)
 
 ---
 
-##  Problem Statement
+## 📌 Problem Statement
 
 Predict the mathematics score of a student based on input features such as gender, ethnicity, parental education level, lunch type, test preparation course, reading score, and writing score.
 
 ---
 
-##  Web Application Preview
+## 🖥️ Web Application Preview
 
 > Enter student details → Click Predict → Get predicted Math Score instantly
 
 ---
 
-##  Tech Stack
+## 🔧 Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -31,13 +31,13 @@ Predict the mathematics score of a student based on input features such as gende
 
 ---
 
-##  Project Architecture
+## 🏗️ Project Architecture
 
 ```
 mlproject/
 ├── .github/
 │   └── workflows/         # CI/CD GitHub Actions pipeline
-├── .ebextensions/         # render
+├── .ebextensions/         # AWS Elastic Beanstalk config
 ├── src/
 │   ├── components/
 │   │   ├── data_ingestion.py       # Data loading & train/test split
@@ -57,7 +57,7 @@ mlproject/
 
 ---
 
-##  ML Pipeline
+## ⚙️ ML Pipeline
 
 ### 1. Data Ingestion
 - Loads raw dataset (1,000 student records)
@@ -82,11 +82,11 @@ Trains and evaluates **7 algorithms** with hyperparameter tuning:
 | CatBoost | Categorical boosting |
 | AdaBoost | Adaptive boosting |
 
- **Best model auto-selected** based on R² score on test set
+✅ **Best model auto-selected** based on R² score on test set
 
 ---
 
-##  Dataset Features
+## 📊 Dataset Features
 
 | Feature | Type | Description |
 |---|---|---|
@@ -101,7 +101,7 @@ Trains and evaluates **7 algorithms** with hyperparameter tuning:
 
 ---
 
-##  How To Run Locally
+## 🚀 How To Run Locally
 
 ### 1. Clone the repository
 ```bash
@@ -133,7 +133,7 @@ http://localhost:5000
 
 ---
 
-##  CI/CD Pipeline
+## 🔄 CI/CD Pipeline
 
 This project uses **GitHub Actions** for automated deployment:
 
@@ -151,7 +151,7 @@ Live app updated ✅
 
 ---
 
-##  Custom Components
+## 📦 Custom Components
 
 ### Logger
 ```python
@@ -172,10 +172,10 @@ raise CustomException(e, sys)
 ## 👤 Author
 
 **Shubhadeep Ghosh**
--  ghoshshubhadeep18@gmail.com
--  [LinkedIn](https://www.linkedin.com/in/shubhadeep-ghosh-b85623322)
--  [GitHub](https://github.com/18091998)
+- 📧 ghoshshubhadeep18@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/shubhadeep-ghosh-b85623322)
+- 🐙 [GitHub](https://github.com/18091998)
 
 ---
 
-##  If you found this project helpful, please give it a star!
+## ⭐ If you found this project helpful, please give it a star!
